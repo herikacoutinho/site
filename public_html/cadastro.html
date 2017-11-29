@@ -1,0 +1,161 @@
+<head>
+    <title>Decode Store 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="shortcut icon" type="image/png" href="img/logo1.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+
+
+   <nav class="navbar navbar-expand-lg" style="background-image: linear-gradient(to right, #1E90FF, purple)" >
+            <a class="navbar-brand" href="index.html"><img src="img/titulo.png" width="200"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="pesquisa" style="margin-left:750px">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Produto" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true" title="Pesquisar"></i></button>
+                </form>
+            </div>
+            <div class="iten" style="margin-left:10px">
+                <button type="button" class="btn btn-outline-light">
+                    <a class="link" href="carrinho">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" title="Ver Meu Carrinho"></i></a></button>
+                
+                    <button type="button" class="btn btn-outline-light">
+                       <a class="link" href="cadastro.html">
+                        <i class="fa fa-sign-in" aria-hidden="true" title="Cadastro / Login">
+                           
+                        </i></a></button>
+            </div>
+
+        </nav>
+
+    <!-- slide -->
+
+    <!-- Menu -->    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: linear-gradient(to right, #1E90FF, purple)">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">INICIO<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    TEMAS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">DC</a>
+                    <a class="dropdown-item" href="#">Marvel</a>
+                    <a class="dropdown-item" href="#">Star Wars</a>
+                    <a class="dropdown-item" href="#">Game of Thrones</a>
+                    <a class="dropdown-item" href="#">Vídeo Games</a>
+                    <a class="dropdown-item" href="#">Desenhos Animados</a>
+
+                </div>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CATEGORIA
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Almofadas</a>
+                    <a class="dropdown-item" href="#">Luminárias</a>
+                    <a class="dropdown-item" href="#">Relógio de Parede</a>
+                    <a class="dropdown-item" href="#">Relógio de Mesa</a>
+                    <a class="dropdown-item" href="#">Aparador de Livros</a>
+                    <a class="dropdown-item" href="#">Quadros Decorativos</a>
+                    <a class="dropdown-item" href="#">Puffs</a>
+
+                </div>
+        </ul>
+
+    </nav>
+    <br/>
+    <br/>
+    <div class="container">
+        <!-- Codrops top bar -->
+        <div class="codrops-top">
+            <a href="">
+
+            </a>
+            <section>				
+                <div id="container_demo" >
+                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="mysuperscript.php" autocomplete="on"> 
+                                <h1>Entrar</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > E-mail ou nome de Usuário </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="nomeusuario ou usuario@mail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> Senha</label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="ex.: 12345A" /> 
+                                </p>
+                                <p class="keeplogin"> 
+                                    <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+                                    <label for="loginkeeping">Me manter Conectado</label>
+                                </p>
+                                <p class="login button"> 
+                                    <input type="submit" value="Entrar" /> 
+                                </p>
+                                <p class="change_link">
+                                    Não é cadastrado?
+                                    <a href="#toregister" class="to_register">Cadastre-se</a>
+                                </p>
+                            </form>
+                        </div>
+
+                        <div id="register" class="animate form">
+                            <form  action="mysuperscript.php" autocomplete="on"> 
+                                <h1> Cadastro </h1> 
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u">Nome</label>
+                                    <input id="usernamesignup" name="nomeusuario" required="required" type="text" placeholder="nomeusuario" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > E-mail</label>
+                                    <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="usuario@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Senha</label>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="ex.: 12345A"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Confirme sua senha</label>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="ex.: 12345A"/>
+                                </p>
+                                <br/>
+                                
+                                <p class="signin button"> 
+                                    <input type="submit" value="Entrar"/> 
+                                </p>
+                                
+                            </form>
+                        </div>
+
+                    </div>
+                </div>  
+            </section>
+        </div>
+</body>
+</html>

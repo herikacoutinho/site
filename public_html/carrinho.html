@@ -1,0 +1,212 @@
+
+<html>
+    <head>
+         <title>Decode Store 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="shortcut icon" type="image/png" href="img/logo1.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+      
+      
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg" style="background-image: linear-gradient(to right, #1E90FF, purple)" >
+            <a class="navbar-brand" href="index.html"><img src="img/titulo.png" width="200"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="pesquisa" style="margin-left:750px">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Produto" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true" title="Pesquisar"></i></button>
+                </form>
+            </div>
+            <div class="iten" style="margin-left:10px">
+                <button type="button" class="btn btn-outline-light">
+                    <a class="link" href="carrinho.html">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" title="Ver Meu Carrinho"></i></a></button>
+                
+                    <button type="button" class="btn btn-outline-light">
+                        <a class="link" href="cadastro.html">
+                        <i class="fa fa-sign-in" aria-hidden="true" title="Cadastro / Login">
+                           
+                        </i></a></button>
+            </div>
+
+        </nav>
+
+        <!-- slide -->
+       
+        <!-- Menu -->    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: linear-gradient(to right, #1E90FF, purple)">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">INICIO<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TEMAS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">DC</a>
+                        <a class="dropdown-item" href="#">Marvel</a>
+                        <a class="dropdown-item" href="#">Star Wars</a>
+                        <a class="dropdown-item" href="#">Game of Thrones</a>
+                        <a class="dropdown-item" href="#">Vídeo Games</a>
+                        <a class="dropdown-item" href="#">Desenhos Animados</a>
+
+                    </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CATEGORIA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Almofadas</a>
+                        <a class="dropdown-item" href="#">Luminárias</a>
+                        <a class="dropdown-item" href="#">Relógio de Parede</a>
+                        <a class="dropdown-item" href="#">Relógio de Mesa</a>
+                        <a class="dropdown-item" href="#">Aparador de Livros</a>
+                        <a class="dropdown-item" href="#">Quadros Decorativos</a>
+                        <a class="dropdown-item" href="#">Puffs</a>
+
+                    </div>
+            </ul>
+
+        </nav>
+        <br/>
+        
+        <table class="table table-striped ">
+  <thead>
+      <tr style="text-align: center">
+      <th scope="col">Item</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Quantidade</th>
+      <th scope="col">Frete</th>
+      <th scope="col">Valor Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"> <img src="img/relogio-de-mesa-despertador-mulher-maravilha.jpg" width="100" heigth="100"/> Relógio Mulher Maravilha</th>
+      <td>R$59,90</td>
+      <td>
+          <select name="quantidade">
+                <option value="">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+      </td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+        <th scope="row"> <img src="img/f01f35a4b4701080b996f56b6423942e.jpg" width="100" heigth="100"/>Luminária Escudo Capitão América</th>
+     <td>R$239,60</td>
+        <td>
+       <select name="quantidade">
+                <option value="">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+  
+      </td>
+      <td>-</td>
+      <td></td>
+    </tr>
+     <tr>
+         <th scope="row"> <img src="img/porta-livro-fusion-dragon-ball.jpg" width="100" heigth="100"/>Porta Livros Dragon Ball</th>
+         <td>R$65,00</td>
+         <td>
+       <select name="quantidade">
+                <option value="">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+            </select>
+  
+      </td>
+      <td>-</td>
+      <td></td>
+     </tr>
+    </tbody>
+</table>
+
+<div class="row"  align="center">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h6 class="card-title">Calcule o Prazo pelo CEP </h6>
+        <br/>
+<!--        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+<div><input type="text" class="form"  placeholder="___________-_____"> </div>
+ <br/>
+ <button type="button" class="btn btn-outline-success">
+
+                    OK
+                   
+                </button>
+       
+        <br/>
+        <p class="card-text">Atenção: 
+O prazo começa a contar a partir da aprovação do pagamento.
+</p>
+<br/>
+      </div>
+    </div>
+  </div>
+    
+  <div class="col-sm-6">
+    <div class="card" >
+      <div class="card-body">
+        <h6 class="card-text">Quantidade de produto: </h6>
+        <h6 class="card-text">Valor Total:  </h6>
+        <p class="card-text">Frete ( ): </p>
+        <button type="button" class="btn btn-outline-success">
+
+                    Finalizar Compra
+                   
+                </button>
+       
+        </div>
+    </div>
+  </div>
+
+</div>
+        
+        
+        <footer>
+        <div class="container-fluid bg-dark" style="background-image: linear-gradient(to right, #1E90FF, purple">
+            <h6 class="text-secondary text-center" style="padding:5%;">Decode Store - A loja de Decoração Nerd<br/>
+           </h6>
+        </div>
+    </footer>
+        
+        
+        
+    </body>
+</html>

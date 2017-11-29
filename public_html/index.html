@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>Decode Store 1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="shortcut icon" type="image/png" href="img/logo1.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg" style="background-image: linear-gradient(to right, #1E90FF, purple)" >
+            <a class="navbar-brand" href="index.html"><img src="img/titulo.png" width="200"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="pesquisa" style="margin-left:750px">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Produto" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true" title="Pesquisar"></i></button>
+                </form>
+            </div>
+            <div class="iten" style="margin-left:10px">
+                <button type="button" class="btn btn-outline-light">
+                    <a class="link" href="carrinho.html">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" title="Ver Meu Carrinho"></i></a></button>
+                
+                    <button type="button" class="btn btn-outline-light">
+                       <a class="link" href="cadastro.html">
+                        <i class="fa fa-sign-in" aria-hidden="true" title="Cadastro / Login">
+                           
+                        </i></a></button>
+            </div>
+
+        </nav>
+
+        <!-- slide -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/capa1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/capa2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/capa4.jpg" alt="Third slide">
+                </div>   
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/capa_site.jpg" alt="Forth slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Menu -->    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: linear-gradient(to right, #1E90FF, purple)">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">INICIO<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TEMAS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">DC</a>
+                        <a class="dropdown-item" href="#">Marvel</a>
+                        <a class="dropdown-item" href="#">Star Wars</a>
+                        <a class="dropdown-item" href="#">Game of Thrones</a>
+                        <a class="dropdown-item" href="#">Vídeo Games</a>
+                        <a class="dropdown-item" href="#">Desenhos Animados</a>
+
+                    </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CATEGORIA
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Almofadas</a>
+                        <a class="dropdown-item" href="#">Luminárias</a>
+                        <a class="dropdown-item" href="#">Relógio de Parede</a>
+                        <a class="dropdown-item" href="#">Relógio de Mesa</a>
+                        <a class="dropdown-item" href="#">Aparador de Livros</a>
+                        <a class="dropdown-item" href="#">Quadros Decorativos</a>
+                        <a class="dropdown-item" href="#">Puffs</a>
+
+                    </div>
+            </ul>
+
+        </nav>
+
+        <br/>
+        <!-- Destaques -->
+
+        <h3 class="text-center"> DESTAQUES</h3>
+        <br/>
+        <div class="container" style="padding: 2%;">
+            <div class="card-deck" >
+                <a class="card" href="#" style="border:none">
+                    <img class="card-img-top" src="img/porta-livro-fusion-dragon-ball.jpg" alt="Dragon">
+                    <div class="card-body" >
+                        <h4 class="card-title">Porta Livros Dragon Ball</h4>
+                        <p class="card-text text-muted text-right"><s>R$100,00</s></p>
+                        <p class="card-text text-warning text-right font-weight-bold">R$65,00</p>
+                        <br/>
+                        <button type="button" class="btn btn-outline-success">
+
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            ADICIONAR AO CARRINHO
+                        </button>
+                    </div>
+                </a>
+                <a class="card" href="#" style="border:none">
+                    <img class="card-img-top" src="img/relogio-de-mesa-despertador-mulher-maravilha.jpg" alt="Maravilha">
+                    <div class="card-body">
+                        <h4 class="card-title">Relógio Mulher Maravilha</h4>
+                        <p class="card-text text-muted text-right"><s>R$89,90</s></p>
+                        <p class="card-text text-warning text-right font-weight-bold">R$59,90</p>
+                        <br/>
+                        <button type="button" class="btn btn-outline-success">
+
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            ADICIONAR AO CARRINHO
+                        </button>
+                    </div>
+                </a>
+
+                <a class="card" href="produto.html" style="border:none">
+                    <img class="card-img-top" src="img/f01f35a4b4701080b996f56b6423942e.jpg"  alt="Card image cap" >
+
+                    <div class="card-body">
+                        <h4 class="card-title">Luminária Escudo Capitão América</h4>
+                        <p class="card-text text-muted text-right"><s>R$300,00</s></p>
+                        <p class="card-text text-warning text-right font-weight-bold">R$239,60</p>
+
+                        <button type="button" class="btn btn-outline-success">
+
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            ADICIONAR AO CARRINHO
+                        </button>
+                    </div>
+                </a> 
+            </div>
+        </div>
+        <div class="container" style="padding: 2%;">
+            <div class="card-deck">
+                <a class="card" href="#"style="border:none">
+                    <img class="card-img-top" src="img/bc09ec8e2c9549c134eb43cc77b2044a.jpg" alt="puff">
+                    <div class="card-body">
+                        <h4 class="card-title">Puff Luigi</h4>
+                        <p class="card-text text-warning text-right font-weight-bold">R$186,90</p>
+
+                        <button type="button" class="btn btn-outline-success">
+
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            ADICIONAR AO CARRINHO
+                        </button>
+                    </div>
+                </a>
+                <a class="card" href="#"style="border:none">
+                    <img class="card-img-top" src="img/almofada.jpg" alt="almofada">
+                    <div class="card-body">
+                        <h4 class="card-title">Almofada R2-D2</h4>
+                        <p class="card-text text-warning text-right font-weight-bold">R$84,90</p>
+
+                        <button type="button" class="btn btn-outline-success">
+
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            ADICIONAR AO CARRINHO
+                        </button>
+                    </div>
+                </a>
+                <a class="card" href="#" style="border:none">
+                    <img class="card-img-top" src="img/relogio-de-parede-comics-batman-robin-quadrinhos-geek-nerd_1_large.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Relógio de Parede Comics</h4>
+                        <p class="card-text text-warning text-right font-weight-bold">R$159,90</p>
+
+                        <button type="button" class="btn btn-outline-success">
+
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            ADICIONAR AO CARRINHO
+                        </button>
+                    </div>
+                </a> 
+            </div>
+        </div>
+        <footer>
+            <div class="container-fluid bg-dark" style="background-image: linear-gradient(to right, #1E90FF, purple">
+                <h6 class="text-secondary text-center" style="padding:5%;">Decode Store - A loja de Decoração Nerd<br/>
+                </h6>
+            </div>
+        </footer>
+    </body>
+</html>
